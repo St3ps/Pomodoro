@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+
+    <link href="../assets/bootstrap/css/bootstrap.css" rel="stylesheet" type="text/css">
+    <!--<link href="css/normalize.css" rel="stylesheet" type="text/css">-->
+    <link href="css/jquery-ui.min.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.0/themes/base/jquery-ui.css">
+
+    <link href='https://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
+
+    <link href="css/app.css" rel="stylesheet" type="text/css">
+
+</head>
+<body>
+<div class="container center">
+
+
+    <!--Settings Panel-->
+    <div class="settings">
+        <div class="panel-group">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <a data-toggle="collapse" href="#collapse1">Settings</a>
+                    </h4>
+                </div>
+                <div id="collapse1" class="panel-collapse collapse" aria-expanded="false">
+                    <div class="panel-body">
+                        <div class="title">Session Length</div>
+                        <div id="slider-session"></div>
+                        <div id="slider-session-text">00:10</div>
+                        <div class="title">B    reak Length</div>
+                        <div id="slider-break"></div>
+                        <div id="slider-break-text">00:05</div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <!--<div id="myDiv"></div>-->
+
+
+    <div class="timer"><h1>Pomodoro</h1>
+
+        <div class="testDiv" id="divProgress" data-value=50></div>
+
+
+    </div>
+    <!--<div id="testdiv"></div>-->
+
+    <div class="bottom">
+    <a href="#" class="button session">Start!</a>
+    </div>
+
+</div>
+
+
+
+
+
+<!--script for date object but fancier i guess---->
+<script type="text/javascript" src="../assets/scripts/moment.js"></script>
+<script type="text/javascript" src="../assets/scripts/jquery-3.1.0.js"></script>
+<!--script for the jquery ui sliders-->
+<script type="text/javascript" src="../assets/scripts/jquery-ui.min.js"></script>
+<!--script for the collapse panels-->
+<script type="text/javascript" src="../assets/scripts/bootstrap.min.js"></script>
+<script type="text/javascript" src="../assets/scripts/circle.js"></script>
+<script type="text/javascript" src="../assets/scripts/clock.js"></script>
+<script type="text/javascript" src="../assets/scripts/appScript.js"></script>
+</body>
+</html>
+
+<!--<script
+src="https://code.jquery.com/jquery-3.1.0.min.js"
+integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s="
+crossorigin="anonymous"></script>-->

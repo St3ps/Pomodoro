@@ -1,0 +1,106 @@
+/*
+*Body
+*/
+/*
+* Timer Text
+*/
+/*
+* Button Session
+*/
+/*
+* Container
+*/
+/*
+* Panel
+*/
+body {
+  font-family: "Poiret One", cursive; }
+
+html {
+  height: 100%; }
+
+body {
+  height: 100%;
+  background-color: #111;
+  overflow: hidden; }
+
+hr {
+  background-color: transparent;
+  height: 0;
+  border: none;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  border-top: 1px solid rgba(0, 0, 0, 0.9);
+  margin: 0;
+  clear: both; }
+
+.panel {
+  border-color: #333;
+  font-weight: 500; }
+
+.panel-heading {
+  background-color: #444 !important;
+  color: white !important; }
+
+.container {
+  height: 100%;
+  text-align: center;
+  background-color: #222;
+  border-radius: 5px;
+  display: flex;
+  overflow: hidden; }
+
+#divProgress {
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+
+.timer {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around; }
+  .timer h1 {
+    color: #50FF71;
+    font-size: 12vh; }
+
+a {
+  color: black;
+  text-decoration: none !important; }
+
+[id^=slider] {
+  margin-top: 10px; }
+
+.title:nth-of-type(odd) {
+  margin-bottom: 1.5em; }
+
+.title:nth-of-type(even) {
+  margin-top: 1.5em;
+  margin-bottom: 1.5em; }
+
+.container {
+  flex-direction: column; }
+
+.timer {
+  flex-grow: 7; }
+
+.bottom {
+  flex-grow: 1; }
+
+.button {
+  display: inline-block;
+  width: 100%; }
+  .button.session {
+    background-color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 32px;
+    color: white;
+    border-radius: 5px; }
+  .button:hover {
+    background-color: #3c3c3c; }
+
+.ui-slider .ui-slider-handle {
+  background-color: #FF4536;
+  border-radius: 5px; }
+
+/*# sourceMappingURL=app.css.map */
