@@ -1,0 +1,37 @@
+@mixin size($width, $height : $width) {
+
+  width: $width;
+  height: $height;
+
+}
+
+@mixin center-block() {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@mixin flex-it($direction, $t) {
+
+
+  .container {
+
+    flex-direction: $direction;
+
+  }
+
+  .timer {
+
+    flex-grow: $t;
+//    align-content: space-around;
+
+  }
+
+  .bottom {
+
+    flex-grow: 1;
+
+  }
+
+
+}
