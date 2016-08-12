@@ -36,6 +36,13 @@ hr {
   background-color: $panel-heading-color !important;
   color: white !important;
 
+  &:hover {
+
+    background-color: #999 !important;
+    color: black !important;
+
+  }
+
 }
 
 
