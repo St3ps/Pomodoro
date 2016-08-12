@@ -40,6 +40,9 @@ hr {
 .panel-heading {
   background-color: #444 !important;
   color: white !important; }
+  .panel-heading:hover {
+    background-color: #999 !important;
+    color: black !important; }
 
 .container {
   height: 100%;
