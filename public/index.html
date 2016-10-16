@@ -3,7 +3,7 @@
 <head lang="en">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title></title>
+    <title>St3ps Pomodoro!</title>
 
     <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
     <link href="css/jquery-ui.min.css" rel="stylesheet" type="text/css">
@@ -20,17 +20,17 @@
     <div class="settings">
         <div class="panel-group">
             <div class="panel panel-default">
-                <div class="panel-heading">
+                 <a data-toggle="collapse" href="#collapse1"><div class="panel-heading">
                     <h4 class="panel-title">
-                        <a data-toggle="collapse" href="#collapse1">Settings</a>
+                       Settings
                     </h4>
-                </div>
-                <div id="collapse1" class="panel-collapse collapse" aria-expanded="false">
+                </div></a>
+                <div id="collapse1" class="panel-collapse collapse" aria-expanded="false" role="tablist">
                     <div class="panel-body">
                         <div class="title">Session Length</div>
                         <div id="slider-session"></div>
                         <div id="slider-session-text">00:10</div>
-                        <div class="title">B    reak Length</div>
+                        <div class="title">Break Length</div>
                         <div id="slider-break"></div>
                         <div id="slider-break-text">00:05</div>
                     </div>
@@ -58,7 +58,7 @@
 <footer>For the source code <a href="https://github.com/St3ps/Pomodoro/" target="_blank">click here</a></footer>
 
 
-<!--script for date-like objects---->
+<!--script for date-like objects-->
 <script type="text/javascript" src="../assets/scripts/moment.js"></script>
 <script type="text/javascript" src="../assets/scripts/jquery-3.1.0.js"></script>
 <!--script for the jquery ui sliders-->
